@@ -17,6 +17,7 @@ public class Main {
 		controleRemoto.setCommand(ligthOnCommand);
 		controleRemoto.executeCommand();
 		controleRemoto.undoCommand();
+		controleRemoto.executeCommand();
 
 	}
 
